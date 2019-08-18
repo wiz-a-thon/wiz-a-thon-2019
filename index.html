@@ -143,163 +143,84 @@
   <div class="timeline" id="timeline" style="background-color: #FBFBFB;">
     <div class="container-fluid">
       <div class="row timeline-row">
-        <div class="col-lg-6">
-          <!-- <br>
-                <br>
-                <br> -->
-          <img src="images/undraw_winners_2yls.svg" class="winner-timeline-img">
-        </div>
-
-        <div class="col-lg-6">
-          <div class="row timeline-text">
-            <div class="col-12 timeline-title">
-              Timeline
-            </div>
-
-            <div class="col-12">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 570 481.5" class="timeline-img">
-                <defs>
                   <style>
-                    @font-face {
-                      font-family: CircularStd-Medium;
-                      src: url("./fonts/CircularStd-Medium.otf") format("opentype");
+                   @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+                   body {
+                    font-family: "Open Sans", sans-serif;
+                    margin: 0;
+                    padding: 0 4em;
                     }
 
-                    .cls-1 {
-                      fill: #818181;
-                      font-size: 20px;
-                      font-family: CircularStd-Medium, Circular Std Medium;
-                      font-weight: 500;
+                  main {
+                    min-width: 300px;
+                    max-width: 500px;
+                    margin: auto;
                     }
 
-                    .cls-2 {
-                      fill: #575757;
+                  p {
+                    font-size: 1em;
+                    line-height: 1.75em;
+                    border-top: 3px solid;
+                    -o-border-image: linear-gradient(to right, #743ad5 0%, #d53a9d 100%);
+                    border-image: linear-gradient(to right, #743ad5 0%, #d53a9d 100%);
+                    border-image-slice: 1;
+                    border-width: 3px;
+                    margin: 0;
+                    padding: 40px;
+                    counter-increment: section;
+                    position: relative;
+                    color: #34435e;
+                    }
+                  p:before {
+                    content: counter(section);
+                    position: absolute;
+                    border-radius: 50%;
+                    padding: 10px;
+                    height: 1.25em;
+                    width: 1.25em;
+                    background-color: #34435e;
+                    text-align: center;
+                    line-height: 1.25em;
+                    color: #ffffff;
+                    font-size: 1em;
                     }
 
-                    .cls-3,
-                    .cls-9 {
-                      fill: none;
+                  p:nth-child(odd) {
+                    border-right: 3px solid;
+                    padding-left: 0;
+                    }
+                  p:nth-child(odd):before {
+                    left: 100%;
+                    margin-left: -20px;
                     }
 
-                    .cls-3,
-                    .cls-5,
-                    .cls-6 {
-                      stroke: #ff6c56;
-                    }
+                  p:nth-child(even) { 
+                    border-left: 3px solid;
+                    padding-right: 0;
+                   }
+                  p:nth-child(even):before {
+                    right: 100%;
+                    margin-right: -20px;
+                   }
 
-                    .cls-3 {
-                      stroke-linecap: round;
-                      stroke-width: 4px;
-                    }
+                  p:first-child {
+                    border-top: 0;
+                    border-top-right-radius: 0;
+                    border-top-left-radius: 0;
+                  }
 
-                    .cls-4,
-                    .cls-6,
-                    .cls-7 {
-                      fill: #ff6c56;
-                    }
-
-                    .cls-4 {
-                      opacity: 0.11;
-                    }
-
-                    .cls-5 {
-                      fill: #fff;
-                    }
-
-                    .cls-5,
-                    .cls-6 {
-                      stroke-width: 3px;
-                    }
-
-                    .cls-8 {
-                      stroke: none;
-                    }
+                  p:last-child {
+                    border-bottom-right-radius: 0;
+                    border-bottom-left-radius: 0;
+                  }
                   </style>
-                </defs>
-                <g id="Group_49" data-name="Group 49" transform="translate(-558 -4122.5)">
-                  <text id="_16th_Mar_9:00_PM_Opening_Ceremony" data-name="16th Mar 9:00 PM | Opening Ceremony" class="cls-1"
-                    transform="translate(1088 4197)">
-                    <tspan style="fill: #818181;" x="-358.24" y="0">29th Mar 9:00 PM</tspan>
-                    <tspan class="cls-2" y="0" xml:space="preserve"> | Opening Ceremony</tspan>
-                  </text>
-                  <text id="_18th_Mar_12:00_AM_Tshirt_and_goodies_Distribution" data-name="18th Mar 12:00 AM | Tshirt and goodies Distribution"
-                    class="cls-1" transform="translate(1088 4404)">
-                    <tspan style="fill: #818181;" x="-468.9" y="0">31st Mar 12:00 AM</tspan>
-                    <tspan class="cls-2" y="0" xml:space="preserve"> | Tshirt and goodies Distribution</tspan>
-                  </text>
-                  <text id="_18th_Mar_10.30_AM_-_1.30PM_Presentation_and_Evaluation_" data-name="18th Mar 10.30 AM - 1.30PM | Presentation and Evaluation "
-                    class="cls-1" transform="translate(1088 4515)">
-                    <tspan style="fill: #818181;" x="-529.62" y="0">31st Mar 10.30 AM - 1.30PM</tspan>
-                    <tspan class="cls-2" y="0" xml:space="preserve"> | Presentation and Evaluation</tspan>
-                    <tspan y="0"> </tspan>
-                  </text>
-                  <text id="_18th_Mar_5:00_PM_Prize_Distribution_Feedback_Session" data-name="18th Mar 5:00 PM | Prize Distribution &amp; Feedback Session"
-                    class="cls-1" transform="translate(1088 4594)">
-                    <tspan style="fill: #818181;" x="-521.6" y="0">31st Mar 5:00 PM</tspan>
-                    <tspan class="cls-2" y="0" xml:space="preserve"> | Prize Distribution &amp; Feedback Session</tspan>
-                  </text>
-                  <text id="_17th_Mar_12:00_Midnight_Registration" data-name="17th Mar 12:00 Midnight | Registration"
-                    class="cls-1" transform="translate(1088 4267)">
-                    <tspan style="fill: #818181;" x="-346.76" y="0">30th Mar 12:00 Midnight </tspan>
-                    <tspan class="cls-2" y="0">| Registration</tspan>
-                  </text>
-                  <text id="_17th_Mar_11:00_AM_Lunch" data-name="17th Mar 11:00 AM | Lunch" class="cls-1" transform="translate(1088 4299)">
-                    <tspan style="fill: #818181;" x="-238.62" y="0">30th Mar 1:00 PM </tspan>
-                    <tspan class="cls-2" y="0">| Lunch</tspan>
-                  </text>
-                  <text id="_17th_Mar_8:00_PM_Dinner" data-name="17th Mar 8:00 PM | Dinner" class="cls-1" transform="translate(1088 4331)">
-                    <tspan style="fill: #818181;" x="-237.78" y="0">30th Mar 8:00 PM </tspan>
-                    <tspan class="cls-2" y="0">| Dinner</tspan>
-                  </text>
-                  <text id="_18th_Mar_10:00_AM_Breakfast" data-name="18th Mar 10:00 AM | Breakfast" class="cls-1"
-                    transform="translate(1088 4442)">
-                    <tspan style="fill: #818181;" x="-274.84" y="0">31st Mar 10:00 AM</tspan>
-                    <tspan class="cls-2" y="0" xml:space="preserve"> | Breakfast</tspan>
-                  </text>
-                  <g id="Timeline">
-                    <line id="Line_4" data-name="Line 4" class="cls-3" y2="464" transform="translate(1110.5 4124.5)" />
-                    <g id="Group_45" data-name="Group 45" transform="translate(0 250)">
-                      <circle id="Ellipse_28" data-name="Ellipse 28" class="cls-4" cx="17.5" cy="17.5" r="17.5"
-                        transform="translate(1093 3923)" />
-                      <g id="Ellipse_29" data-name="Ellipse 29" class="cls-5" transform="translate(1100 3930)">
-                        <circle class="cls-8" cx="11" cy="11" r="11" />
-                        <circle class="cls-9" cx="11" cy="11" r="9.5" />
-                      </g>
-                    </g>
-                    <g id="Group_46" data-name="Group 46" transform="translate(0 456)">
-                      <circle id="Ellipse_28-2" data-name="Ellipse 28" class="cls-4" cx="17.5" cy="17.5" r="17.5"
-                        transform="translate(1093 3923)" />
-                      <g id="Ellipse_29-2" data-name="Ellipse 29" class="cls-5" transform="translate(1100 3930)">
-                        <circle class="cls-8" cx="11" cy="11" r="11" />
-                        <circle class="cls-9" cx="11" cy="11" r="9.5" />
-                      </g>
-                    </g>
-                    <g id="Group_47" data-name="Group 47" transform="translate(0 567)">
-                      <circle id="Ellipse_28-3" data-name="Ellipse 28" class="cls-4" cx="17.5" cy="17.5" r="17.5"
-                        transform="translate(1093 3923)" />
-                      <g id="Ellipse_29-3" data-name="Ellipse 29" class="cls-5" transform="translate(1100 3930)">
-                        <circle class="cls-8" cx="11" cy="11" r="11" />
-                        <circle class="cls-9" cx="11" cy="11" r="9.5" />
-                      </g>
-                    </g>
-                    <g id="Group_48" data-name="Group 48" transform="translate(0 646)">
-                      <circle id="Ellipse_28-4" data-name="Ellipse 28" class="cls-4" cx="17.5" cy="17.5" r="17.5"
-                        transform="translate(1093 3923)" />
-                      <g id="Ellipse_29-4" data-name="Ellipse 29" class="cls-6" transform="translate(1100 3930)">
-                        <circle class="cls-8" cx="11" cy="11" r="11" />
-                        <circle class="cls-9" cx="11" cy="11" r="9.5" />
-                      </g>
-                    </g>
-                    <circle id="Ellipse_35" data-name="Ellipse 35" class="cls-7" cx="5" cy="5" r="5" transform="translate(1106 4255)" />
-                    <circle id="Ellipse_36" data-name="Ellipse 36" class="cls-7" cx="5" cy="5" r="5" transform="translate(1106 4287)" />
-                    <circle id="Ellipse_37" data-name="Ellipse 37" class="cls-7" cx="5" cy="5" r="5" transform="translate(1106 4319)" />
-                    <circle id="Ellipse_38" data-name="Ellipse 38" class="cls-7" cx="5" cy="5" r="5" transform="translate(1106 4430)" />
-                  </g>
-                </g>
-              </svg>
-            </div>
-          </div>
-        </div>
+                <main>
+  <p>Doggo ipsum long bois lotsa pats blep. What a nice floof ruff super chub very good spot, the neighborhood pupper lotsa pats. Borkdrive shibe shoober what a nice floof, borking doggo.</p>
+  <p>Shoober shooberino adorable doggo many pats, heckin good boys many pats pupper wrinkler, corgo maximum borkdrive. A frighten puggo wow very biscit.</p>
+  <p>Big ol h*ck adorable doggo vvv smol borking doggo with a long snoot for pats big ol, he made many woofs doing me a frighten puggo wow very biscit, ruff fat boi ruff long doggo. </p>
+  <p>Long bois mlem I am bekom fat wrinkler puggo maximum borkdrive big ol pupper I am bekom fat, fluffer vvv adorable doggo lotsa pats snoot. I am bekom fat ur givin me a spook length boy wow very biscit very good spot.</p>
+  <p>Doggo ipsum long bois lotsa pats blep. What a nice floof ruff super chub very good spot, the neighborhood pupper lotsa pats. Borkdrive shibe shoober what a nice floof, borking doggo.</p>
+</main>
       </div>
     </div>
   </div>
