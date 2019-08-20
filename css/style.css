@@ -175,7 +175,7 @@ background-color: #555;
 } */
 
 .navbar-img{
-    width: 50px
+    width: 40%;
 }
 
 /* .navbar-img{
@@ -1030,6 +1030,7 @@ background-color: #555;
   width: 100%;
   position: relative;
   top: 50%;
+  padding-right: 15%;
   /* left: 80%; */
   transform: translate(0%, -50%);
 }
@@ -1555,6 +1556,9 @@ background-color: #555;
 }
 
 @media screen and (max-width: 768px){
+    .extra-space{
+       display: none;
+    }
     .mentor-img{
         width: 150px;
         height: 150px;
@@ -1808,5 +1812,63 @@ background-color: #555;
     box-shadow:  0 6px 18px 0 rgba(46,61,73,0.1);
 }
 
+/*** TimeLine***/
+ main {
+	 min-width: 100px;
+	 max-width: 500px;
+	 margin: auto;
+}
+.p-timeline {
+	 font-size: 1em;
+	 line-height: 1.75em;
+	 border-top: 3px solid;
+	 border-image: linear-gradient(to right, #743ad5 0%, #d53a9d 100%);
+     border-image-slice: 1;
+     color:#575757;
+	 border-width: 3px;
+	 margin: 0;
+	 padding: 40px;
+	 counter-increment: section;
+	 position: relative;
+}
+.p-timeline:before {
+	 content: counter(section);
+	 position: absolute;
+     border-radius: 50%;
+	 padding: 9px;
+	 height: 2.3em;
+	 width: 2.3em;
+	 background-color: #34435e;
+	 text-align: center;
+	 line-height: 1.25em;
+	 color: #fff;
+	 font-size: 1em;
+}
+.p-timeline:nth-child(odd) {
+	 border-right: 3px solid;
+	 padding-left: 0;
+}
+.p-timeline:nth-child(odd):before {
+	 left: 100%;
+	 margin-left: -20px;
+}
+.p-timeline:nth-child(even) {
+	 border-left: 3px solid;
+	 padding-right: 0;
+}
+.p-timeline:nth-child(even):before {
+	 right: 100%;
+	 margin-right: -20px;
+}
+.p-timeline:first-child {
+	 border-top: 0;
+	 border-top-right-radius: 0;
+	 border-top-left-radius: 0;
+}
+.p-timeline:last-child {
+	 border-bottom-right-radius: 0;
+	 border-bottom-left-radius: 0;
+}
+ 
 
 /*--------- Projects Section ends  -----------*/
