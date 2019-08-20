@@ -27,6 +27,15 @@ button{
     outline: none;
 }
 
+.coc{
+    font-family: circularStd;
+    line-height: 150%;
+    padding-top: 5%;
+}
+.coc p, li{
+    font-size: 20px;
+    color: #818181;
+}
 
 @font-face{
     font-family: circularStd;
