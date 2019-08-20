@@ -29,7 +29,7 @@ function scrollFunction() {
       document.getElementById("mainNav").style.paddingBottom = "1%";
       document.getElementById("mainNav").classList.add("shadowFix");
   } else {
-    document.getElementById("mainNav").style.paddingTop = "4%";
+    document.getElementById("mainNav").style.paddingTop = "0%";
     document.getElementById("mainNav").style.paddingBottom = "0%";
     document.getElementById("mainNav").classList.remove("shadowFix");
   }

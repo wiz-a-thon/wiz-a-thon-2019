@@ -90,7 +90,6 @@ button:hover, .btn:hover, .btn:visited, .btn:active{
     top: 0%;
     left: 0%;
     background-color:white;
-    padding-top: 4%; 
     padding-left: 10%; 
     padding-right: 10%;
     transition: all 0.6s;
@@ -176,7 +175,7 @@ background-color: #555;
 } */
 
 .navbar-img{
-    width: 200px
+    width: 50px
 }
 
 /* .navbar-img{
@@ -340,7 +339,7 @@ background-color: #555;
 }
 
 .logo-img{
-    width: 107%;
+    width: 50%;
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
