@@ -107,7 +107,7 @@ button:hover, .btn:hover, .btn:visited, .btn:active{
 .hover-text{
     position: absolute;
     font-family: circularStdBook;
-    color: #b94343;
+    color:green;
     /* display: none; */
 }
 
@@ -343,7 +343,7 @@ background-color: #555;
 }
 
 .landing-contents-button {
-    margin: 0px 0px;
+    margin: 0px 33%;
     padding: 0px 1px;
 }
 
