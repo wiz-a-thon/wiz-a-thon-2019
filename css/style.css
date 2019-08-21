@@ -154,7 +154,7 @@ background-color: #555;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     font-family: circularStdBook;
-    color: #fed700;
+    color: #818181;
     font-size: 18px;
     text-align: justify;
     /* background-color: #f1f1f1; */
@@ -343,12 +343,12 @@ background-color: #555;
 }
 
 .landing-contents-button {
-    margin: 0px 33%;
+    margin: 0px 20%;
     padding: 0px 1px;
 }
 
 .logo-img{
-    width: 50%;
+    width: 70%;
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
