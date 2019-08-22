@@ -300,6 +300,7 @@ background-color: #555;
     padding-right: 10%;
 }
 
+
 @media screen and (max-width:992px){
     .commitment-align{
         padding-left: 2%;
@@ -343,12 +344,12 @@ background-color: #555;
 }
 
 .landing-contents-button {
-    margin: 0px 20%;
+    margin: 0px 20.7%;
     padding: 0px 1px;
 }
 
 .logo-img{
-    width: 70%;
+    width: 60%;
     position: relative;
     left: 50%;
     transform: translate(-50%, 0);
@@ -651,6 +652,13 @@ background-color: #555;
     .winner-img{
         width: 50%;
         /* margin-top: 5%; */
+    }
+
+    .logo-img{
+        width: 100%;
+        position: relative;
+        left: 50%;
+        transform: translate(-50%, 0);
     }
 
     .commitment-text, .about-text {
