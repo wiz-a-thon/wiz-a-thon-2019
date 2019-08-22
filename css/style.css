@@ -334,11 +334,15 @@ background-color: #555;
         padding-top: 20%;
         padding-bottom: 20%;
     }
+
+    .landing-page{
+        margin-top: 0%;
+    }
 }
 
 .landing-contents{
     position: relative;
-    top: 50%;
+    top: 40%;
     transform: translate(0, -32%);
     width: 35%;
 }
