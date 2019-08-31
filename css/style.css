@@ -1000,6 +1000,15 @@ background-color: #555;
 }
 
 @media screen and (max-width: 1400px){
+    .winner-timeline-img{
+        width: 100%;
+        position: relative;
+        top: 50%;
+        padding-right: 15%;
+        /* left: 80%; */
+        transform: translate(0%, -50%);
+      }
+      
     .speaker-row {
         margin-left: 0%;
         margin-right: 0%;
@@ -1048,7 +1057,7 @@ background-color: #555;
 }
 
 .winner-timeline-img{
-  width: 100%;
+  width: 70%;
   position: relative;
   top: 50%;
   padding-right: 15%;
@@ -1132,6 +1141,7 @@ background-color: #555;
 }
 
 @media screen and (max-width: 1400px){
+      
   .timeline-img{
     width: 110%;
   }
@@ -1554,10 +1564,15 @@ background-color: #555;
     .mentor-container{
         width: 80%;
     }
+
+.extra-space{
+    display:inline-table;
+ }
 }
 
 
 @media screen and (max-width: 992px){
+    
     .mentor-img{
         width: 120px;
         height: 120px;
