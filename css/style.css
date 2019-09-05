@@ -6,7 +6,9 @@ html, body{
     position: absolute;
     top: 0%;
 }
-
+.wolfram{
+    top: 15px;
+}
 *:focus {
     outline: none;
 }
@@ -112,6 +114,9 @@ button:hover, .btn:hover, .btn:visited, .btn:active{
 }
 
 @media screen and (max-width: 992px){
+    .wolfram{
+        top: 15px;
+    }
     #mainNav{
         padding-left: 4%; 
         padding-right: 4%;
@@ -205,6 +210,9 @@ background-color: #555;
 }
 
 @media screen and (max-width:768px){
+    .wolfram{
+        top: 15px;
+    }
     .navbar-brand{
         width: 60%;
     }
