@@ -356,7 +356,7 @@ background-color: #555;
 }
 
 .landing-contents-button {
-    margin: 0px 20.7%;
+    margin: 0px 0%;
     padding: 0px 1px;
 }
 
@@ -1154,13 +1154,13 @@ background-color: #555;
 
 
 
-#hint-apply-now {
+#wizathon-apply-now {
   fill: #323232;
   border-color: #323232; 
   color:#323232;
 }
 
-#hint-apply-now:active:focus {
+#wizathon-apply-now:active:focus {
   fill: #fff;
   color: #fff
 } 
